@@ -17,12 +17,15 @@ function Profile() {
 
 export default function Gallery() {
   return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson" />
-      <button>click me</button>
+    <section  style={{
+      backgroundColor: 'black',
+      color: 'pink'
+    }}>
+       <ul>
+      <li>Improve the videophone</li>
+      <li>Prepare aeronautics lectures</li>
+      <li>Work on the alcohol-fuelled engine</li>
+    </ul>
       <br/>
       <br/>
       <Profile />
